@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Таблицы и формы</title>
+</head>
+<style>
+  body {
+    background: #F0F4C3;
+  }
+  table {
+    width: 800px;
+    border: 1px solid #212121;
+    color: : #FCE4EC;
+    border-collapse: collapse;
+  }
+  tr,
+  td {
+    border: 1px solid #212121;
+    text-align: center;
+  }
+  .first,
+  thead {
+    font-weight: bold;
+    text-align: center;
+  }
+</style>
+
+<body>
+  <table align="center">
+    <caption><b>Фильмы и сериалы на любой случай жизни</b>
+    </caption>
+    <thead>
+      <td></td>
+      <td>Грустные</td>
+      <td>Мотивирующие</td>
+      <td>Добрые</td>
+      <td>Веселые</td>
+      <td>Динамичные</td>
+      <td>Филосовские</td>
+      <td>Атмосферные</td>
+      <td>Визуальные</td>
+      <td>Агрессивные</td>
+      <td>Музыкальные</td>
+    </thead>
+    <tr>
+      <td rowspan="3" class="first">90-е</td>
+      <td>Безумный Макс</td>
+      <td>Мстители</td>
+      <td colspan="3">Ла-ла-Лэнд</td>
+      <td colspan="3">Сплит</td>
+      <td>Форрест Гамп</td>
+      <td>Моя Прекрасная Няня</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Волшебники из Вэвирле плэс</td>
+      <td>Ханна Монтана</td>
+      <td>Бобер</td>
+      <td>Я голодный</td>
+      <td>Помогите!</td>
+      <td>Мы опаздываем</td>
+      <td>Чертовы таблицы!</td>
+      <td>Черт!</td>
+      <td>ЕЩЕ И ГИТХАБ!</td>
+      <td>АААААААААА!</td>
+    </tr>
+    <tr>
+      <td>Защитники</td>
+      <td>Ночные стражи</td>
+      <td>Пианист</td>
+      <td>Лара Крофт</td>
+      <td colspan="5">Побег из Шоушенка</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="first">00-е</td>
+      <td>Сияние</td>
+      <td>Оно</td>
+      <td>Кэрри</td>
+      <td>Трансформеры</td>
+      <td>Трансформеры 2</td>
+      <td>Трансформеры 3</td>
+      <td>Трансформеры 4</td>
+      <td>Трансформеры 5</td>
+      <td>Симпсоны</td>
+    </tr>
+    <tr>
+      <td colspan="3">Горько!</td>
+      <td rowspan="3">Воронины</td>
+      <td colspan="5">Даша-путешественница</td>
+      <td>Поле чудес</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Сваты</td>
+      <td rowspan="4">Глухарь </td>
+      <td rowspan="4">Ментовские войны</td>
+      <td>Улица разбитых фонарей</td>
+      <td>Маргоша</td>
+      <td>Возвращение Мухтара</td>
+      <td>Гоголь Начало</td>
+      <td>Гоголь Темный рыцарь</td>
+      <td>Гоголь Возрождение Легенды</td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="first">10-е</td>
+      <td rowspan="3" colspan="6">Форсаж</td>
+    </tr>
+    <tr>
+      <td>Финес и Ферб</td>
+    </tr>
+    <tr>
+      <td>След</td>
+    </tr>
+  </table>
+  <form>
+    <p><b>Выберите любимые жанры</b>
+    </p>
+    <p>
+      <input type="checkbox" value="check1" id="check1">
+      <label for="check1">Драмы</label>
+      <br>
+      <input type="checkbox" value="check2" id="check2">
+      <label for="check2">Комедии</label>
+      <br>
+      <input type="checkbox" value="check3" id="check3">
+      <label for="check3">Семейные</label>
+      <br>
+      <input type="checkbox" value="check4" id="check4">
+      <label for="check4">Криминальные</label>
+      <br>
+      <input type="checkbox" value="check5" id="check5">
+      <label for="check5">Спортивные</label>
+      <br>
+      <input type="checkbox" value="check6" id="check6">
+      <label for="check6">Музыкальные</label>
+      <br>
+      <input type="checkbox" value="check7" id="check7">
+      <label for="check7">Триллеры</label>
+      <br>
+      <input type="checkbox" value="check8" id="check8">
+      <label for="check8">Ужасы</label>
+      <br>
+      <input type="checkbox" value="check9" id="check9">
+      <label for="check9">Боевики</label>
+      <br>
+      <label for="check10">Иные</label>
+      <input type="text" size="50" id="check10">
+    </p>
+    <p><b>Укажите возраст</b>
+    </p>
+    <p>
+      <input type="text">
+    </p>
+    <p><b>Как часто вы смотрите фильмы/сериалы?</b>
+    </p>
+    <p>
+      <input type="radio" id="regularity1" name="regularity" value="radik1">
+      <label for="regularity1">Несколько раз в 1-2 дня</label>
+      <br>
+      <input type="radio" id="regularity2" name="regularity" value="radik2">
+      <label for="regularity2">Несколько раз в неделю</label>
+      <br>
+      <input type="radio" id="regularity3" name="regularity" value="radik3">
+      <label for="regularity3">Несколько раз в месяц</label>
+      <br>
+      <input type="radio" id="regularity4" name="regularity" value="radik4">
+      <label for="regularity4">Несколько раз в год</label>
+    </p>
+    <p><b>Я считаю себя...</b>
+    </p>
+    <select name="select" size="1" multiple>
+      <option value="select1">Умником</option>
+      <option value="select2">Солнышком</option>
+      <option value="select3">Редиской</option>
+    </select>
+    <br>
+    <p><b>Загрузи фото себя в костюме собаки</b>
+    </p>
+    <input type="file" name="file">
+    <br>
+    <p><b>Имейел!!!11</b>
+    </p>
+    <input type="email" name="email">
+    <br>
+    <br>
+    <button type="submit">Отправить</button>
+    <br>
+  </form>
+</body>
+
+</html>
