@@ -52,8 +52,8 @@
     padding-top: 36px;
 }
 .promo-panel {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0, 21);
-    margin-bottom: 57px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+  margin-bottom: 57px;
 }
 .product-card {
     margin-top: 21px;
@@ -69,7 +69,7 @@
 }
 .product-name {
     height: 52px;
-
+    margin-left: 30px;
     margin-bottom: 10px;
     display: block;
     font-family: Formular;
@@ -129,6 +129,7 @@
     height: 302px;
     margin-top: 21px;
     border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
     background: linear-gradient( rgba(46, 46, 46, 0.21), rgba(46, 46, 46, 0.21)), url('images/cp-1.jpg');
 }
 .category-panel2 {
@@ -137,6 +138,7 @@
     height: 302px;
     margin-top: 21px;
     border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
     background: url('images/cp-2.jpg');
 }
 .category-panel3 {
@@ -146,6 +148,7 @@
     margin-top: 30px;
     margin-bottom: 85.6px;
     border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
     background: linear-gradient(rgba(46, 46, 46, 0.21), rgba(46, 46, 46, 0.21)), url('images/cp-3.jpg');
 }
 .category-panel3 p {
@@ -173,11 +176,8 @@
   font-family: Formular;
 }
 .footer {
-  position:absolute;
-  top:1878px;
-  bottom:21px;
-  left:0;
-  width:100vw;
+width:1270px;
+transform: translateX(-60px);
   }
 .footer-contact-text {
     font-family: Formular;
@@ -185,24 +185,7 @@
     font-size: 21px;
     line-height: normal;
     color: #666;
-    margin-top: 36px;
-}
-.footer-contact-text1 {
-    font-family: Formular;
-    font-weight: normal;
-    font-size: 21px;
-    line-height: normal;
-    color: #666;
-    margin-top: 21px;
-}
-.footer-contact-text2 {
-    font-family: Formular;
-    font-weight: normal;
-    font-size: 21px;
-    line-height: normal;
-    color: #666;
-    margin-bottom: 20px;
-    margin-top:22px;
+    margin: 20px;
 }
 .footer-logo{
    margin-bottom: 40px;
