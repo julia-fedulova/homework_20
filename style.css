@@ -122,6 +122,19 @@
     font-size: 32px;
     font-weight: 500;
     color: #4b721d;
+    text-decoration: none;
+}
+.title:visited {
+    color: #4b721d;
+    text-decoration: none;
+}
+.title:hover {
+    color: #80bb3d;
+    text-decoration: none;
+}
+.title:active {
+    color: #4b721d;
+    text-decoration: none;
 }
 .category-panel1 {
     position: relative;
@@ -176,8 +189,13 @@
   font-family: Formular;
 }
 .footer {
-width:1270px;
-transform: translateX(-60px);
+  width: 100vw;
+  top: 1878px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+position: absolute;
+
   }
 .footer-contact-text {
     font-family: Formular;
